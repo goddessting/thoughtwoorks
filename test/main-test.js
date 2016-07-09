@@ -1,10 +1,5 @@
 describe('calculate price', function () {
-    var waitTime;
-
-    beforeEach(function () {
-        waitTime = 4;
-    });
-
+    
     describe('calculate price by mileage', function () {
 
         it('when mileage is not more than 2, it should return start price 2rmb', function () {
